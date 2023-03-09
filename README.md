@@ -63,7 +63,7 @@ The out-of-the box performance is only slightly improved by hyperparameter tunin
 ## 3. **Feature engineering**
 Only 2 values are missing for the *Embarked* feature in the modelling set and 1 for *Fare* in the submission set, therefore the choice of how to handle the missing cases will most likely not have an appreciable effect on the final results, and therefore it will not be investigated. 
 
-In the case of the **Age** though, we are inferring 177 out of 891 data points (approx. **20%**!), therefore this feature merits more attention. From the correlation of Age with the other features (Pearson correlation coefficient - [jump to code](#section_id4)), the relationships evidenced are:
+In the case of the **Age** though, we are inferring 177 out of 891 data points (approx. **20%**!), therefore this feature merits more attention. From the correlation of Age with the other features (Pearson correlation coefficient), the relationships evidenced are:
 * an **inverse relationship with Pclass, SibSp, and Parch**: the younger the person, the higher the class (younger less wealthy people travelling more likely in 3rd or 2nd class), and the higher number of family members travelling together.
 * a **positive correlation with Sex and Fare**: the older the person, the higher the Fare (older, more wealthy people, travelling in 1st class more likely) and the more likely they are to be a man (Male is encoded to 1 and Female is encoded to 0).
 
