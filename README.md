@@ -108,8 +108,3 @@ The following results were obtained. Interestingly, sometimes "**less is more**"
 | HistGradientBoostingClassifier  | 0.82960     |   0.77033      | 0.82063 |  <span style="color:green">**0.78229** </span>|  <span style="color:green">+2%</span>  |
 | StackingClassifier               |**0.84753**  | **0.77751** | **0.81166** | 0.77751 |  same  |
 
-## 4. **Conclusions**
-
-Testing out different angles to attempt to improve the prediciton accuracy for the Titanic dataset was an interesting and fruitful learning opportunity, to experiment with **model selection**, **hp tuning**, and **feature engineering** and familiarize with how these concepts are applied within the scikit-learn library. I hope that this Notebook can be helpful to other learners, as many others have been for me! 
-
-Happy modelling! :D 
