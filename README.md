@@ -1,5 +1,5 @@
 # **Titanic Survivors Challenge: a look into the payoff of different strategies**
-In this notebook, strategies to improve the accuracy of the *submission* predictions for the [Titanic challenge](https://www.kaggle.com/competitions/titanic/overview) are discussed, with focus on how much an action improved upon the previous score, and which efforts are most beneficial, considering the added development and computational time required.
+In [this notebook](https://www.kaggle.com/code/eleonoraricci/model-screening-hp-opt-and-feature-engineering), strategies to improve the accuracy of the *submission* predictions for the [Titanic challenge](https://www.kaggle.com/competitions/titanic/overview) are discussed, with focus on how much an action improved upon the previous score, and which efforts are most beneficial, considering the added development and computational time required.
 
 ## **Aspects explored:**
 1. Effects of **model selection**
